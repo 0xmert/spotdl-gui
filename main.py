@@ -28,4 +28,4 @@ if __name__ == "__main__":
     else:
         window = webview.create_window("dev", "http://localhost:8080", js_api=api)
 
-    webview.start(whatever, window, debug=True)
+    webview.start(whatever, window, debug=True, gui="cef")
